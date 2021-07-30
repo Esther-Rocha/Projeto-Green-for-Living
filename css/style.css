@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+
+.html{
+    scroll-behavior: smooth;
+}
+body {  
+    font-family: 'Hahmlet', serif;
+    background-color:rgb(59, 88, 53);;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    font-size: 20px;
+}
+.header {
+    width: 100%;
+    height: 90px; 
+   display: flex; 
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 10px;
+   position: fixed; 
+   top:0;
+   left: 0; 
+   background-color: rgb(33, 56, 29);
+}
+
+.header__titulo {
+    color: rgb(238, 238, 238);
+}
+
+.header__icone{
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    width: 100%;
+    height: 100vh;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    background-attachment:fixed;
+    
+  
+}
+
+
+/* display flex para ficar um do lado do outro */
+
+/* fazendo o MENU */
+.Menu__principal ul{
+    list-style: none;
+    display: flex;
+    
+  
+}
+.Menu__principal li {
+    margin: 0 6px;
+    position: relative;
+    padding-right: 30px; 
+    border: 0px solid #fff;
+    border-radius: 7px; 
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 100 ;
+}
+
+.menu__item{
+    color: rgb(231, 231, 231);
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+/* quando o mouse estiver sobre o menu */
+
+ .menu__item:hover{
+    color: rgb(26, 37, 18);
+} 
+
+.section1{
+    width: 100%;
+    height: 100vh;
+}
+
+.container__conteudo{
+    width: 50%;
+    height: 100vh;
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 30px;
+}
+
+.container__conteudo__titulo{
+    font-size: 40px;
+    margin-bottom: 50px;
+
+}
+
+.container__conteudo__paragrafo{
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 50px;
+}
+
+/* section2 */
+.container2{
+    width: 100%;
+    height: 100vh;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    background-attachment: fixed;
+  
+}
+/* Cards */
+
+#container2{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.container__card2{
+    width: 25%;
+    height: 75vh;
+    border: 1px solid rgb(79, 119, 72);;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    float: left;
+    margin-top: 80px;
+ 
+}
+
+.card__icone{
+    font-size: 50px;
+    margin-bottom: 60px;
+    color: #fff;
+}
+.card__icone:hover{
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition: transform 0.5s;
+
+}
+.box__link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    border: 1px solid #ffffff;
+    padding: 15px 40px;
+    border-radius: 7px;
+}
+.box__link:hover{
+    background-color: rgb(10, 22, 8);
+    
+}
+.box__titulo{
+    color: #fff;
+    margin-top: -80px;
+}
+.box__paragrafo{
+    width: 60%;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 40px ;
+    color: #fff;
+}
+.cor__fundo2 {
+    background-color: rgb(59, 88, 53);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    background-attachment: fixed;
+}
+/* imagens do fundo */
+.imagem__fundo1{
+    background-image: url(../image/pexels-mahima-1250260.jpg);
+}
+.imagem__fundo3{
+    background-image: url(../image/pexels-midhun-bs-1044320\ \(1\).jpg);
+}
+/* section3 */
+.text__3{
+    width: 50%;
+    height: 100vh;
+    color: rgb(32, 63, 28);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* padding: 0 40px; */
+    font-weight: bold
+}
